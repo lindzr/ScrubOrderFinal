@@ -1,13 +1,7 @@
 class Student : ScrubProfile , Listmaker
 {
-    // class sets up the attributes necessary in each student object.
-
-    // public string gender {get; set;}
-    // public string topSz {get; set;}
-    // public int topQuantity {get; set;}
-    // public string pantSz {get; set;}
-    // public string pantLength {get; set;}
-    // public int pantQuantity {get; set;}
+    // class constructs the attributes necessary in each student object and makes lists for the top and bottom
+    // orders for each student.
 
     public Student(string gender_, string topSz_, int topQuantity_, string pantSz_, string pantLength_, int pantQuantity_)
     {
